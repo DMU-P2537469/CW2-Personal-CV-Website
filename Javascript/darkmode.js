@@ -9,11 +9,11 @@ icon.onclick = function(){
     if(document.body.classList.contains("darktheme")){
         console.log("Light Mode");
         theme = "Light";
-        icon.src ="../Images/moon.png"; 
+        icon.src ="Images/moon.png"; 
     } else{
         console.log("Dark Mode");
         theme = "Dark"
-        icon.src ="../Images/sun.png"; 
+        icon.src ="Images/sun.png"; 
     }
 
 
@@ -29,7 +29,7 @@ console.log(GetTheme);
 
 if(GetTheme === "Light"){
     document.body.classList = "darktheme";
-    icon.src ="../Images/moon.png"; 
+    icon.src ="Images/moon.png"; 
 }else{
-    icon.src ="../Images/sun.png"; 
+    icon.src ="Images/sun.png"; 
 }
