@@ -44,11 +44,15 @@
         </header>
         
              <!--  A contact form capable of obtaining data from the user, storing the information in a database, the database used is PouchDB -->
-
+   <!--  A div with a class of contactMesh is used to store all the features in an organized location, Inside the div is a form with an action attribute to navigate the user after completion to a new htmlpage for this situation "Thankspage.html".  -->
 
         <div class="contactMesh">
 
             <form id="contactform" action="Thankspage.html">
+                
+                   <!--  Each label is obtaining attributes which after the user inputs an answer that information will go through a javascript file and matching the results with the correct parameters defined (for this case it is the "fname", "email", and "about" data)  -->
+                
+                   <!--  To prevent users from inputing invalid information specific patterns are defined as a safety feature  -->
 
                 <label for="fname">Full Name:</label><br>
                 <input type="text" id="fname" name="fname" maxlength="64" pattern="[A-Za-z ]{1,64}" title="Must not include numbers" required><br><br>
@@ -60,6 +64,8 @@
                 <textarea id="about" name="about" rows="10" cols="40" required>Enter your message here! </textarea>
 
                 <br><br>
+                
+                   <!--  This button submits the data to the database  -->
 
                 <button id="addUserFeedbackButton">Submit</button>
 
