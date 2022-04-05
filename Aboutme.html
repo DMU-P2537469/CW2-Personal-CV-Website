@@ -36,6 +36,8 @@
                     <li><a href="ContactMe.html">Contact Me</a></li>
 
                 </ul>
+                
+                   <!--  Img for light/dark mode icon, the id attached is used within the .js file to switch the image src depending on light/dark active  -->
 
                 <img src="Images/sun.png" id="icon" alt="moon/sun icons">
 
@@ -44,7 +46,7 @@
         </header>
 
 
-     <!-- Descriptive section about Harvey Claxton, These explore his hobbies and other information. This page works alongside aboutmeinfo.js inwhich after clicking the button the information for that div will be given an id/class allowing the overlay to be visible -->
+     <!-- About mesh hosts all the content within this section, An image of Harvey is present with text -->
 
         <div class="aboutMesh">
             <div class="aboutcontainer">
@@ -56,7 +58,9 @@
                 <h2>Hello, My name is Harvey Claxton</h2>
 
 
-
+   <!--  A button with the class "open_button" is used to activate when the content will be visible or not, this was done via a custom .js file-->
+                   <!--  Within the Div hosts details surrounding the topic of interest for example "Childhood", an image would be present with complimentary text  -->
+                
                 <button class="open_button" id="open_childhood_modal">Childhood</button>
                 <div id="modal_childhood" class="modal-container">
                     <div class="modal">
@@ -65,13 +69,13 @@
                         <p>I was born in the UK and left the country when I hit the age of 2. My family moved to a country called Oman, this country would be where I spent my entire upbringing. I went to an international school in which I made friends from each corner of the world. Oman is located within the middle east close to Dubai and is known for its beaches/quiet lifestyle. The school I went to was an IB school in which I can happily say I had obtained my diploma. After graduating from high school I moved to the UK where I enrolled in DMU.</p>
 
                         <button id="close_childhood_modal">Go back</button>
-
+   <!--  A close button is present within the content, once the javascript allows the information to become visible this button would be used to navigate back to the default section page (childhood, Hobbies etc)  -->
                     </div>
 
 
                 </div>
 
-
+   <!--  Repeated 3 times  -->
                 <button class="open_button" id="open_hobbies_modal">Hobbies</button>
                 <div id="modal_hobbies" class="modal-container">
                     <div class="modal">
@@ -109,7 +113,7 @@
         </div>
 
 
-       <!--  Footer holding navigational Icons linking to social accounts  -->
+       <!--  Footer holding navigational Icons linking to social accounts, These icons are provided by Font Awesome, To obtain these images each page was linked in the head of the html file to the fontawesome database allowing access to thousands of custom fonts capable of adjustments and more. These icons are partnered with an anchor to allow navigation to Linkedin and Instagram  -->
         
         
 
