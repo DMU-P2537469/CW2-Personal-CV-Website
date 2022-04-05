@@ -16,18 +16,27 @@
         
             <!--  Header containing Navigation  -->
 
-
+<!--  Header is defined and given a class "header" this will be adjusted within the css linked document  -->
         <header class="header">
             <nav>
+                
+                <!--  A section was created to store the websites logo (this logo is a png image of my name "Harvey Claxton, png contains a transparent background)  -->
                 <div class="logo">
+                    
+                    <!--  The logo is fitted with an anchor used to navigate the user back to the homepage "index.html"  -->
                     <a href="index.html"><img src="Images/Harvey%20Claxton.png" alt="logo"></a>
                 </div>
+                
+                <!--  A new div is created, this will be used to animate a "burger" drop down menu when entering mobile resoultions  -->
 
                 <div class="dropdown">
                     <div class="Line1"></div>
                     <div class="Line2"></div>
                     <div class="Line3"></div>
                 </div>
+                
+                <!--  A list of anchors are presented titled the names of each page within the website  -->
+                
                 <ul class="nav-links">
                     <li><a href="Aboutme.html">About Me</a></li>
                     <li><a href="Projects.html">Projects</a></li>
@@ -36,6 +45,8 @@
                     <li><a href="ContactMe.html">Contact Me</a></li>
 
                 </ul>
+                
+                <!--  This image will change depending on the current dark/light mode state, the id attached "icon" is used within a javascript file, this .js file will identify which mode is active (dark/light) and adjust the image accordingly, for example if the mode is in dark mode the image "src" will be of the sun "Images/sun.png" -->
 
                 <img src="Images/sun.png" id="icon" alt="moon/sun icons">
 
@@ -45,7 +56,7 @@
         
              <!-- General Information About Harvey - Also contains a download link to his CV -->
         
-
+<!--  Within the css a background gif is used to create a more attractive homepage -->
         <div class="hero">
 
             <div class="content">
@@ -55,6 +66,8 @@
                 <h4>Hello, my name is</h4>
                 <h1>Harvey <span style="color:red; font-weight: bold;">Claxton</span></h1>
                 <h3>I'm a Media Production graduate</h3>
+                <!--  A form is used with an anchor to allow the users to download a .pdf document  -->
+                <!-- This anchor has a class titled "btn" inwhich it is designed with css to appear as an attractive clickable button (hover effects and more)  -->
                 <form>
                     <a href="Document/CV%20DRAFT.pdf" class="btn" download>Download CV</a>
                 </form>
@@ -69,7 +82,7 @@
         <section class="skills">
             <div class="details">
                 <div class="detailstext">
-
+<!--  The information for the skills are done via the use of "li" lists  -->
                     <h2><span style="color:red">Skills</span> / Expertise</h2>
                     <ul class="subskills">
                         <li>AfterEffects</li>
@@ -94,12 +107,13 @@
 
         <div class="testimonialsection">
 
-
+<!--  "testcont" and "testwrap" are used to define the boundaries inwhich the "testcard" can be seen, by making the "testcard" a specific width and height we can store multiple sections of details without being visable, with the use of a .js file, a function can be assigned that whenever a set button is clicked the testcard will move showcasing a new section of information -->
+            
             <div class="testcont">
                 <div class="testwrap">
                     <div class="testcard">
 
-
+<!--  "testcardthumb" stores infromation such as an image of a person, there name overlayed ontop of the image, followed by this div is a "testcardbody" containing the description. These 2 divs are both under a main div "testcard" hosting all the information   -->
                         <div class="testcardthumb">
                             <img class="testimage" src="Images/Testimony%20Images/Testimonial1.jpeg" alt="Testimonial1">
                             <span class="testname">Full Name</span>
@@ -112,6 +126,8 @@
 
                     </div>    
 
+                    <!--  This is repeated 3 times  -->
+                    
                     <div class="testcard">
 
 
@@ -144,6 +160,9 @@
 
 
                 </div>
+                
+                <!--  The indicator div acts as a previous and next button, this is accompanied by a .js file, within the css the buttons are designed to be red and look attractive to the users -->
+                
                 <div class="indicators">
 
                     <button class="testactive"></button>
