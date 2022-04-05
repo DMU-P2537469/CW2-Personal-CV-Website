@@ -58,10 +58,10 @@
                 <input type="text" id="fname" name="fname" maxlength="64" pattern="[A-Za-z ]{1,64}" title="Must not include numbers" required><br><br>
 
                 <label for="email">Email:</label><br>
-                <input type="text" id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Must be a valid email address" required><br><br>
+                <input type="text" id="email" name="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" title="Must be a valid email address" required><br><br>
  
                 <label for="about">About:</label><br>
-                <textarea id="about" name="about" rows="10" cols="40" required>Enter your message here! </textarea>
+                <textarea id="about" name="about" rows="10" cols="40" placeholder="Enter Message Here!" required></textarea>
 
                 <br><br>
                 
