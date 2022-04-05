@@ -14,6 +14,8 @@
 
 /* First Block */
 
+/* Adjusting the positioning and size of the portrait image */
+
 #portrait {
     margin-bottom: 20px;
 }
@@ -49,6 +51,8 @@
 
 }
 
+/* Defining the boundaries for .hero and adding a background gif */
+
 .hero{
     height: 100vh;
     width: 100%;
@@ -61,6 +65,8 @@
 
 }
 
+/*  Adjusting the attributes for .content */
+
 .content{
     position: relative;
     top: 50%;
@@ -71,6 +77,8 @@
 
 
 }
+
+/* Designing the text elements within .content  */
 
 .content h1{
     color: white;
@@ -92,6 +100,8 @@
     font-size: 20px;
 }
 
+/* Designing the .btn (more attractive)  */
+
 .btn {
     background-color: DodgerBlue;
     text-decoration: none;
@@ -105,12 +115,14 @@
     filter: drop-shadow(0 0 0.55rem blue);
 }
 
+/*  Adding hover elements to .btn */
+
 .btn:hover{
     filter: drop-shadow(0 0 0.75rem white);
 }
 
 
-/* Darkmode */
+/* Darkmode - Very Important and used across the entire website */
 
 :root{
     --primary-color: #000106;
@@ -136,13 +148,15 @@
     filter: drop-shadow(0 0mm 2mm var(--secondary-color));
 }
 
+/* .vidwrap hover feature  */
+
 .vidwrap:hover{
     transform: scale(1.1);
      filter: drop-shadow(0 0mm 2mm red);
 }
 
 
-/* Responsive */
+/* Responsive .vidwrap */
 
 @media (max-width: 740px){
     .vidwrap{
@@ -150,6 +164,7 @@
     }
 }
 
+/* Adjusting the size/position for .videocontainer  */
 
 .videocontainer{
     width: 100%;
@@ -160,6 +175,8 @@
     position: relative;
 }
 
+/* Specifically targeting the iframe position and size within the .videocontainer  */
+
 .videocontainer iframe{
     width: 100%;
     max-width: 100%;
@@ -169,6 +186,7 @@
     left: 0;
 }
 
+/* Adjusting the position for .videogallery  */
 
 .videogallery{
     position: relative;
@@ -177,6 +195,7 @@
 
 }
 
+/* Changing the text design/position within .videogallery  */
 
 .videogallery h1{
     color: var(--secondary-color);
@@ -203,6 +222,9 @@
 
 
 }
+
+
+/*  Altering the .gallery img design + hover */
 
 .gallery img{
     transition: 1s;
@@ -236,15 +258,6 @@
     font-weight: bold;
 }
 
-/* Responsive */
-
-
-
-
-@media (max-width: 1100px){
-
-
-}
 
 
 /* Skills Section */
@@ -254,20 +267,6 @@
     width: 100%;
     padding: 100px 0px;
     background: var(--primary-color);
-
-}
-
-
-.details{
-
-
-
-}
-
-
-.detailstext{
-
-
 
 }
 
@@ -297,6 +296,8 @@
 
 /* Testimonials Section */
 
+/*  Adding background gif to testimonial section */
+
 .testimonialsection{
     background-image: url(../Videos/gradientpink.gif);
     background-size: cover;
@@ -310,6 +311,8 @@
 
 }
 
+
+/*  Adjusting the test container position/scale */
 
 
 .testcont{
@@ -398,7 +401,7 @@
 }
 
 
-
+/*  Adding style to the .indicators , these indicators are supposed to look like buttons, they are given animation features such as transform: translate, and transitions for a smooth appearence */
 
 .indicators{
     position: absolute;
@@ -420,6 +423,8 @@
     transition: .5s;
 }
 
+/* When the button indicator is given the class .testactive it would be presented in a larger state to the others making it clear which button is active  */
+
 button.testactive{
     width: 40px;
     border-radius: 50px;
@@ -427,7 +432,7 @@ button.testactive{
 }
 
 
-/* Responsive */
+/* Responsive design for testimony section */
 
 @media (max-width: 800px){
     .testcont{
@@ -588,7 +593,7 @@ nav{
 }
 
 
-/* Responsive Design */
+/* Responsive Design for nav bar*/
 @media screen and (max-width: 1067px){
 
     #icon{
@@ -935,7 +940,7 @@ nav{
 
 }
 
-/* Responsive */
+/* Responsive design for project section */
 
 
 @media screen and (max-width: 800px){
@@ -959,6 +964,8 @@ nav{
 
 }
 
+/* Design features for text within .projectcontainer */
+
 
 .projectcontainer h1{    
     padding-top: 20px;
@@ -977,6 +984,8 @@ nav{
     margin-top: 20px;
     color: var(--secondary-color);
 }
+
+/* .projectlogo design choices */
 
 
 .projectlogo{
@@ -1030,7 +1039,7 @@ nav{
 
 
 
-/* Contact */
+/* Contact page */
 
 .contactMesh{
     background: var(--primary-color);
