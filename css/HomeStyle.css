@@ -52,6 +52,7 @@
 }
 
 /* Defining the boundaries for .hero and adding a background gif */
+/* Background gif provided by = A. (2020, October 28). */
 
 .hero{
     height: 100vh;
@@ -297,6 +298,7 @@
 /* Testimonials Section */
 
 /*  Adding background gif to testimonial section */
+/* Background gif provided by = A. (2020, October 28). */
 
 .testimonialsection{
     background-image: url(../Videos/gradientpink.gif);
