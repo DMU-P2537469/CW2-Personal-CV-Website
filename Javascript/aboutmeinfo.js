@@ -1,19 +1,24 @@
 // ============== HOBBIES MODAL ==============
+
+// ============== The variables are assigned within a const to prevent change, a const for the open modal, modal content and closed modal is defined and holds the Id's   ==============
 const open_hobbies_modal = document.getElementById('open_hobbies_modal');
 const modal_hobbies = document.getElementById('modal_hobbies');
 const close_hobbies_modal = document.getElementById('close_hobbies_modal');
 
-
+// ============== When the button in the html page with the Id "open_hobbies_modal" is clicked, that modal would be given the class "show", within the css stylesheet the class "show: holds an opacity value of 1 and enables pointer events allowing the user to interect with the close button within the modal ==============
 open_hobbies_modal.addEventListener('click', () => {
     modal_hobbies.classList.add('show');
 
 });
 
-
+// ============== The close_hobbies_modal close button works the same as the open button however instead of adding the "show" class to the modal it would remove the class making the content not visible and interactable ==============
 close_hobbies_modal.addEventListener('click', () => {
     modal_hobbies.classList.remove('show');
 
 });
+
+// ============== This is repeated a total of 3 times for each button/section for the about me page, creating more would be a simple task/adjustment ==============
+
 
 // ============== ACHIEVEMENTS MODAL ==============
 const open_achievements_modal = document.getElementById('open_achievements_modal');
