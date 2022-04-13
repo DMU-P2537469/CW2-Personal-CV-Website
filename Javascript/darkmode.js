@@ -30,7 +30,7 @@ icon.onclick = function(){
 
 }
 
-// ============== GetTheme would collect the data from "PageTheme and print the result to the console. ==============
+// ============== GetTheme would collect the data from "PageTheme" and print the result to the console. ==============
 
 let GetTheme = JSON.parse(localStorage.getItem("PageTheme"));
 console.log(GetTheme);
