@@ -5,7 +5,7 @@ const open_hobbies_modal = document.getElementById('open_hobbies_modal');
 const modal_hobbies = document.getElementById('modal_hobbies');
 const close_hobbies_modal = document.getElementById('close_hobbies_modal');
 
-// ============== When the button in the html page with the Id "open_hobbies_modal" is clicked, that modal would be given the class "show", within the css stylesheet the class "show: holds an opacity value of 1 and enables pointer events allowing the user to interect with the close button within the modal ==============
+// ============== When the button in the html page with the Id "open_hobbies_modal" is clicked, that modal would be given the class "show", within the css stylesheet the class "show: holds an opacity value of 1 and enables pointer-events allowing the user to interact with the close button within the modal ==============
 open_hobbies_modal.addEventListener('click', () => {
     modal_hobbies.classList.add('show');
 
