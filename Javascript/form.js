@@ -9,11 +9,11 @@ let db = new PouchDB("usersData");
 
 let url = document.URL;
 
-// ============== Paramaters are created for the new url ==============
+// ============== Parameters are created for the new url ==============
 
 let paramaters = (new URL(url)).searchParams;
 
-// ============== The questions form on the html contact page are defined under the names "fname, about, email" what this does is gathers the answers provided from the form and stores that user inputed data into the following catagories "name:, about:, email:" this data would all be held within a variable called "user" inwhich the "user" data would be added into the new database (db) ==============
+// ============== The questions from on the html contact page form are defined under the names "fname, about, email" what this does is gathers the answers provided from the form and stores that user inputted data into the following catagories "name:, about:, email:" this data would all be held within a variable called "user" in which the "user" data would be added into the new database (db) ==============
 
 let theDate = new Date().toISOString();      
 let user = {
