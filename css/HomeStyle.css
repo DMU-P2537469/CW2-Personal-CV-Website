@@ -191,7 +191,7 @@
 
 .videogallery{
     position: relative;
-    min-height: 150vh;
+    min-height: 200vh;
     background: var(--primary-color);
 
 }
