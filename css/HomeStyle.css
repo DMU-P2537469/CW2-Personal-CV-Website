@@ -193,10 +193,29 @@
 
 .videogallery{
     position: relative;
-    min-height: 200vh;
+    min-height: 190vh;
     background: var(--primary-color);
 
 }
+
+@media (max-width: 700px){
+    .videogallery{
+        min-height: 160vh;
+        
+}
+    
+ @media (max-width: 550px){
+    .videogallery{
+        min-height: 140vh;
+        
+}
+        
+ @media (max-width: 400px){
+    .videogallery{
+        min-height: 120vh;
+        
+}
+
 
 /* Changing the text design/position within .videogallery  */
 
@@ -208,6 +227,7 @@
     font-size: 40px;
     font-weight: bold;
 }
+
 
 
 
