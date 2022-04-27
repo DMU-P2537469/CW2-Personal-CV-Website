@@ -198,26 +198,6 @@
 
 }
 
-@media (max-width: 700px){
-    .videogallery{
-        min-height: 160vh;
-        
-}
-}
-    
- @media (max-width: 550px){
-    .videogallery{
-        min-height: 140vh;
-        
-}
-     }
-        
- @media (max-width: 400px){
-    .videogallery{
-        min-height: 120vh;
-        
-}
-     }
 
 
 /* Changing the text design/position within .videogallery  */
