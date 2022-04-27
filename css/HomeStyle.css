@@ -1074,6 +1074,17 @@ nav{
     padding-top: 100px;
 }
 
+.contactMesh h1{
+
+    color: var(--secondary-color);
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 120px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
 
 #contactform{
 
