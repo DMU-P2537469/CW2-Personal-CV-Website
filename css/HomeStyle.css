@@ -203,12 +203,14 @@
         min-height: 160vh;
         
 }
+}
     
  @media (max-width: 550px){
     .videogallery{
         min-height: 140vh;
         
 }
+     }
         
  @media (max-width: 400px){
     .videogallery{
